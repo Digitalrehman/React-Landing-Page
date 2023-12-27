@@ -15,7 +15,7 @@ const App = () => {
   useEffect(()=>{
     setInterval(()=>{
       setCount((slide)=>{return slide===2?0:slide+1})
-    },3000)
+    },4000)
   },[])
   return (
     <>
