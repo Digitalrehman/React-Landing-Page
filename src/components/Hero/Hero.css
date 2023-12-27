@@ -4,9 +4,9 @@
 
 .hero-text p {
     margin-top: 40px;
-    color: snow;
+    color: rgb(56, 56, 56);
     font-family: Poppins !important;
-    font-size: 52px;
+    font-size: 50px;
     font-weight: bold;
     line-height: 0.6;
     
@@ -26,7 +26,8 @@
 }
 
 .hero-explore:hover {
-    box-shadow: 5px 6px 5px 5px black;
+    color: snow;
+    background-color: red;
 
 }
 
@@ -38,7 +39,7 @@
 
 .hero-explore img {
     height: 35px;
-    width: 35px;
+    width: 30px;
 
 }
 
@@ -85,4 +86,27 @@
     justify-content: center;
     gap: 10px;
     color: snow;
+}
+@media screen and (max-width : 768px) {
+    .hero-text p{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+    
+}
+@media screen and (max-width : 480px) {
+    .hero-text p{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .hero-explore p{
+        font-size: 18px;
+    }
+    .status{
+        flex-direction: column;
+        
+    }
+    .status .hero-dot-play ul{
+        margin-bottom: 20px;
+    }
 }
