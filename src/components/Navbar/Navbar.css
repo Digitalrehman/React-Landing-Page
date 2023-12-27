@@ -33,5 +33,19 @@
 }
 .nav .contact:hover{
     color: snow;
-    background-color: black;
+    background-color: red;
+}
+@media screen and (max-width : 768px) {
+    .nav{
+        flex-direction: column;
+    }
+    .nav .logo{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width : 768px){
+    
+    .nav .menu-list{
+        gap: 13px;
+    }
 }
